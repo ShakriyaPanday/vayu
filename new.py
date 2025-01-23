@@ -16,7 +16,7 @@ app.title = "VayuDrishti Dashboard"
 server = app.server
 
 # Load pollution data from CSV
-dmap = pd.read_csv("pollution.csv")
+dmap = pd.read_csv("/kaggle/input/global-air-pollution-dataset/global air pollution dataset.csv")
 # Footer
 footer = dbc.Container(
     html.Footer(
