@@ -83,7 +83,7 @@ footer = dbc.Container(
 )
 
 # API URL
-API_URL = "https://api.airgradient.com/public/api/v1/world/locations/58525/measures/current"
+API_URL = "https://api.airgradient.com/public/api/v1/world/locations/86749/measures/current"
 data = [
     {"date": "2025-01-16", "pm25": 85.2},
     {"date": "2025-01-17", "pm25": 78.4},
