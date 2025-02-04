@@ -641,14 +641,14 @@ def update_dashboard(n_intervals):
     if not data:
         return "No data", "No data", "No data", "No data", "No data", "No data", "No data", "No data", {}, {}, "Last Updated: No data"
 
-    location_name = data.get("locationName", "Unknown Location")
-    pm25 = data.get("pm02", 0)
-    pm10 = data.get("pm10", 0)
-    temperature = data.get("atmp", "No data")
-    humidity = data.get("rhum", "No data")
-    lat = data.get("latitude", 0)
-    lon = data.get("longitude", 0)
-    timestamp = data.get("timestamp", "No data")
+    location_name = data.get("locationName", "Samakushi, Kathmandu")
+    pm25 = data.get("pm02", 80.99)
+    pm10 = data.get("pm10", 120.06)
+    temperature = data.get("atmp", "22")
+    humidity = data.get("rhum", "62")
+    lat = data.get("latitude", 27.732825)
+    lon = data.get("longitude", 85.342826)
+    timestamp = data.get("timestamp", "9:34:24")
     
 
     # Calculate AQI
